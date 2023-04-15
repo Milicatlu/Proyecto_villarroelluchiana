@@ -1,0 +1,34 @@
+.row{
+    padding: 30px;
+}
+div{
+    background-color:#f5f6f7;
+    text-align: center;
+}
+
+/*etiqueta nombre */
+
+#nombre{
+    font-weight: bold;
+    margin-top: 10%;
+    
+}
+/*edicion de foto */
+@media (min-width:576px){
+#fotocv{
+    position: relative;
+    width: 200%;
+    border-radius: 10px 30px 0 0px;
+    box-shadow: 3px 3px 3px rgb(99, 97, 97);
+    left:3%;
+    bottom: 120px;
+}}
+@media (max-width:575px){
+    #fotocv{
+        position: relative;
+        width: 40%;
+        border-radius: 10px 30px 0 0px;
+        box-shadow: 3px 3px 3px rgb(99, 97, 97);
+        left:auto;
+        bottom: 60px;
+    }}
